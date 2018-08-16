@@ -39,6 +39,34 @@ public class tugas {
                 + x.equals(r));
         System.out.println("isi x sama dengan r (Not Case Sensitive) : "
                 + x.equalsIgnoreCase(r));
+        
+        System.out.println();
+        
+        System.out.println("perbandingan isi x dengan y : " + x.compareTo(y));
+        System.out.println("perbandingan isi x dengan z (Case Sensitive) : "
+                + x.compareTo(z));
+        System.out.println("perbandingan isi x dengan r (Case Sensitive) : "
+                + x.compareTo(r));
+        System.out.println("perbandingan isi x dengan r (Not Case Sensitive) : "
+                + x.compareToIgnoreCase(r));
+        
+        String s = "operasi";
+        System.out.println("isi variable s : "+ s);
+        System.out.println("perbandingan isi r dengan s (Case Sensitive)"
+                + r.compareTo(s));
+        
+        System.out.println();
+        
+        System.out.println("pada x terdapat huruf 'a' : " + x.contains("a"));
+        
+        System.out.println("isi variable x besar semua : "+ x.toUpperCase());
+        System.out.println("isi variable x kecil semua : "+ x.toUpperCase());
+        
+        String t = "  operasi string  ";
+        System.out.println("isi variable t : \""+ t +"\"");
+        System.out.println("isi variable t tanpa spasi : \""+ t.trim());
+        
+        System.out.println("gabungkan isi variable x dan r : "+ x.concat(r));
         }
     }
 
